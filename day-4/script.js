@@ -8,7 +8,7 @@ let acertou = false;
 while (chute !== numeroSecreto && tentativas <= 3) {
     chute = parseInt(prompt("Escolha um número entre 1 e 10:" + numeroSecreto));
 
-    if (chute == numeroSecreto) {
+    if (chute === numeroSecreto) {
         acertou = true;
         break;
     } else {
